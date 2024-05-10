@@ -1,0 +1,86 @@
+body {
+    background-color: black;
+    background-image: url("/Users/macbook/Desktop/CSS_P/p1/fountain-pen-7426396.gif");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    color:white;
+    font-family: fantasy;
+    font-weight: bolder;
+    border-color: black;
+
+}
+
+
+
+p.one {
+    border-style: dashed;
+    border-width: thick;
+    border-color: slategrey; /* Color is not perfect */
+}
+p.two {
+    border-style: dotted;
+    border-width: medium;
+    border-color: slategrey; /* change the color */
+}
+p.three {
+    border-style: double;
+    border-width: thin;
+    border-color: slategrey; /* not user satisfied */
+}
+p.four {
+    border-style: groove;
+    border-width: 10px;
+    border-color: slategrey; /* Change it */
+}
+p.mix_brdr {
+    border-style: solid dashed dotted none;
+    border-color: red green blue;
+    border-width: thick;
+}
+
+p.m_1 {
+    border-style: dotted;
+    border-radius: 100px;
+    border-color: rgb(181, 181, 181);
+}
+p.m_2 {
+    border-style: solid dashed;
+    border-end-start-radius: 100px;
+    border-color: rgb(249, 249, 249);
+}
+p.m_3 {
+    border-style: groove dotted solid;
+    border-start-end-radius: 100px;
+    border-color: rgb(255, 255, 255);
+    margin: 50px 100px 200px 400px;
+}
+p.m_4 {
+    border-style: dashed dotted double outset;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    border-color: rgb(255, 255, 255);
+    margin-top: 100px;
+}
+
+div.n1 {
+    background-color: slategray;
+    width: 1080px;
+    height: 720px;
+    border: 30px solid slateblue;
+    padding: 30px;
+    margin: 75px;
+    color: black;
+}
+
+p.od {outline-style: dotted; outline-color: red; outline-width: thick;}
+p.ad {outline: thick ridge aqua; unicode-bidi: bidi-override; direction: rtl;}
+
+
+
+
+
+
+
+
